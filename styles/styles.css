@@ -1,0 +1,35 @@
+body {
+            background-color: rgb(138, 79, 79);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: rgb(123, 182, 234);
+            background-color: rgb(40, 176, 131);
+            text-align: center;
+        }
+
+        #para1 {
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(197, 24, 24);
+        }
+
+        .span1 {
+            font-size: 40px;
+            color: rgb(57, 131, 196);
+            background-color: rgb(180, 208, 215);
+        }
+
+        .span2 {
+            font-size: 30px;
+            color: rgb(5, 30, 52);
+            background-color: rgb(85, 88, 88);
+        }
+        *{
+            font-family: 'Times New Roman', Times, serif;
+            border-width: 2px;
+            border-color: blueviolet;
+            border-style:inset ;
+        }
