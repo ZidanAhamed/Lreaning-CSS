@@ -3,10 +3,10 @@ body {
             text-align: center;
         }
 
-        h1 {
+        .body-h1 {
             font-size: 50px;
             color: rgb(123, 182, 234);
-            background-color: rgb(40, 176, 131);
+            background-color: rgb(32, 40, 37);
             text-align: center;
         }
 
@@ -29,7 +29,39 @@ body {
         }
         *{
             font-family: 'Times New Roman', Times, serif;
-            border-width: 2px;
-            border-color: blueviolet;
-            border-style:inset ;
+        }
+
+        #css-box{
+            width: 500px;
+            height: auto;
+            background-color: rgb(118, 108, 108);
+            margin: auto;
+            border-radius: 20px;
+            /* padding: 20px; */
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-bottom: 2px;
+            padding-top: 1px;
+            border: 5px solid rgb(39, 38, 38);
+
+            background-image: url(https://imgs.search.brave.com/ahEZGqfvSDIYY6TrHpdBnIR315JHONLzi3t_Kd4uAwg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ1/OTM3MzE3Ni92ZWN0/b3IvYWJzdHJhY3Qt/ZGVmb2N1c2VkLWJh/Y2tncm91bmQtc3By/aW5nLXN1bW1lci1z/ZWEuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPVA2RDFWclhl/ZUtzSmZ5S3psSmVJ/cXh5TlhrZVl0TWI2/QzFtVzZwNjh4cm89);
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #box-h1{
+            color: rgb(202, 37, 37);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          
+        }
+        #box-button{
+            cursor: pointer;
+            border-width: 5px;
+            border-radius: 5px;
+            text-shadow: -2px 2px 5px;
+        }
+        #box-para {
+            font-size: 20px;
+            font-weight: bold;
         }
